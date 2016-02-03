@@ -57,3 +57,5 @@ au BufNewFile,BufRead *.vue set filetype=html
 
 set foldmethod=indent
 set nofoldenable
+
+set clipboard+=unnamed
