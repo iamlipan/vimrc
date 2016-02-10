@@ -54,6 +54,7 @@ au BufNewFile,BufRead *.es6 set filetype=javascript
 au BufNewFile,BufRead *.mst set filetype=html
 au BufNewFile,BufRead *.dot set filetype=html
 au BufNewFile,BufRead *.vue set filetype=html
+au BufNewFile,BufRead *.rb set filetype=ruby
 
 set foldmethod=indent
 set nofoldenable
