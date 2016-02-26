@@ -23,3 +23,6 @@ map <Leader>ff :Autoformat<CR><CR>
 map <Leader>file :NERDTreeToggle<CR><CR>
 imap <C-c> <CR><Esc>O
 nmap <silent> <leader>da <Plug>DashGlobalSearch
+
+" Ruby Shift + Enter to complete code
+imap <S-CR>    <CR><CR>end<Esc>-cc
