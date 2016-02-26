@@ -4,7 +4,11 @@ Plugin 'terryma/vim-multiple-cursors'
 Plugin 'tpope/vim-commentary'
 Plugin 'kien/ctrlp.vim'
 Plugin 'vim-scripts/Mark'
-Plugin 'Keithbsmiley/investigate.vim'
+
+" A Vim plugin for looking up documentation
+" http://keith.github.io/investigate.vim/
+" Plugin 'Keithbsmiley/investigate.vim'
+
 Plugin 'tpope/vim-fugitive' 
 Plugin 'SirVer/ultisnips'
 Plugin 'Chiel92/vim-autoformat'
@@ -58,7 +62,7 @@ Plugin 'airblade/vim-gitgutter'
 
 "let g:formatprg_coffee = "coffeeformat"
 let g:formatprg_args_cs = ""
-let g:neocomplete#enable_at_startup = 1
+" let g:neocomplete#enable_at_startup = 1
 
 
 " function! Multiple_cursors_before()
