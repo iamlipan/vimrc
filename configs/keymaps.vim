@@ -14,6 +14,7 @@ map <C-h> :tabp<cr>             "上一个tab
 map <C-n> :tabnew<cr>           "新tab
 map <C-k> :bn<cr>               "下一个文件
 map <C-j> :bp<cr>               "上一个文件
+map <Leader>tree :NERDTreeToggle<CR>
 map <Leader>fs :LustyFilesystemExplorerFromHere<CR>
 map <Leader>tb :TagbarToggle<CR>
 map <Leader>newt :tabnew<CR>
