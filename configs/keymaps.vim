@@ -23,6 +23,7 @@ map <Leader>ff :Autoformat<CR><CR>
 "map <Leader>csw :CoffeeWatch<CR><CR>
 map <Leader>file :NERDTreeToggle<CR><CR>
 imap <C-c> <CR><Esc>O
+imap <C-o> <Esc>O
 nmap <silent> <leader>da <Plug>DashGlobalSearch
 
 " Ruby Shift + Enter to complete code

@@ -59,4 +59,12 @@ au BufNewFile,BufRead *.rb set filetype=ruby
 set foldmethod=indent
 set nofoldenable
 
-set clipboard+=unnamed
+" Default Use System Paste
+noremap  y "*y
+noremap  Y "*Y
+noremap  p "*p
+noremap  P "*P
+vnoremap y "*y
+vnoremap Y "*Y
+vnoremap p "*p
+vnoremap P "*P

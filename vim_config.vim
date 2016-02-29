@@ -1,5 +1,5 @@
 filetype off
-" Plugins 
+" Plugins
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 try
@@ -17,7 +17,7 @@ endtry
 
 if has('mac')
     "----------
-    " only for yosemite 
+    " only for yosemite
     set shell=bash\ -l
     " ---------
 endif
@@ -37,8 +37,7 @@ catch
 endtry
 
 " go-lang
-try
-    source ~/.vim/configs/go.vim
-catch
-endtry
-
+" try
+"    source ~/.vim/configs/go.vim
+" catch
+" endtry
