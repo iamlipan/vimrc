@@ -8,16 +8,15 @@ Plugin 'vim-scripts/Mark'
 " A Vim plugin for looking up documentation
 " http://keith.github.io/investigate.vim/
 " Plugin 'Keithbsmiley/investigate.vim'
-
 Plugin 'tpope/vim-fugitive'
-Plugin 'SirVer/ultisnips'
+" Plugin 'SirVer/ultisnips'
 Plugin 'Chiel92/vim-autoformat'
 Plugin 'Raimondi/delimitMate'
 Plugin 'rking/ag.vim'
 "Plugin 'Shougo/neocomplete.vim'
 
 " Snippets
-Plugin 'honza/vim-snippets'
+" Plugin 'honza/vim-snippets'
 
 " go
 " Plugin 'fatih/vim-go'
