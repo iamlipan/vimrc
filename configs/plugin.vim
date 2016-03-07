@@ -29,7 +29,7 @@ Plugin 'ervandew/supertab'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'myusuf3/numbers.vim'
 Plugin 'scrooloose/nerdtree.git'
-Plugin 'Xuyuanp/nerdtree-git-plugin'
+" Plugin 'Xuyuanp/nerdtree-git-plugin'
 
 " html
 " Plugin 'vim-scripts/xml.vim'
@@ -60,11 +60,11 @@ Plugin 'rizzatti/dash.vim'
 Plugin 'vim-ruby/vim-ruby'
 
 " Lua
-Plugin 'vim-misc'
-Plugin 'lua.vim'
+" Plugin 'vim-misc'
+" Plugin 'lua.vim'
 
 " git show modified lines
-Plugin 'airblade/vim-gitgutter'
+" Plugin 'airblade/vim-gitgutter'
 
 "let g:formatprg_coffee = "coffeeformat"
 let g:formatprg_args_cs = ""

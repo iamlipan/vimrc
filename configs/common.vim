@@ -55,16 +55,24 @@ au BufNewFile,BufRead *.mst set filetype=html
 au BufNewFile,BufRead *.dot set filetype=html
 au BufNewFile,BufRead *.vue set filetype=html
 au BufNewFile,BufRead *.rb set filetype=ruby
+au BufNewFile,BufRead *.eye set filetype=ruby
 
 set foldmethod=indent
 set nofoldenable
 
 " Default Use System Paste
+noremap yy "*yy
+noremap dd "*dd
+noremap d "*d
 noremap  y "*y
 noremap  Y "*Y
 noremap  p "*p
 noremap  P "*P
+
+vnoremap d "*d
 vnoremap y "*y
+vnoremap yy "*yy
+vnoremap dd "*dd
 vnoremap Y "*Y
 vnoremap p "*p
 vnoremap P "*P
