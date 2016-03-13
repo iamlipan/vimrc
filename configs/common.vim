@@ -76,3 +76,8 @@ vnoremap dd "*dd
 vnoremap Y "*Y
 vnoremap p "*p
 vnoremap P "*P
+
+:set colorcolumn=80        " highlight column after 'textwidth'
+" :set colorcolumn=+1,+2,+3  " highlight three columns after 'textwidth'
+:highlight ColorColumn ctermbg=lightgrey guibg=lightgrey
+
