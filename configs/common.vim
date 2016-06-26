@@ -60,22 +60,8 @@ au BufNewFile,BufRead *.eye set filetype=ruby
 set foldmethod=indent
 set nofoldenable
 
-" Default Use System Paste
-noremap yy "*yy
-noremap dd "*dd
-noremap d "*d
-noremap  y "*y
-noremap  Y "*Y
-noremap  p "*p
-noremap  P "*P
-
-vnoremap d "*d
-vnoremap y "*y
-vnoremap yy "*yy
-vnoremap dd "*dd
-vnoremap Y "*Y
-vnoremap p "*p
-vnoremap P "*P
+" set global keymap timeout
+set timeoutlen=500
 
 :set colorcolumn=80        " highlight column after 'textwidth'
 " :set colorcolumn=+1,+2,+3  " highlight three columns after 'textwidth'

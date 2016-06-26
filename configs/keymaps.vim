@@ -28,3 +28,21 @@ nmap <silent> <leader>da <Plug>DashGlobalSearch
 
 " Ruby Shift + Enter to complete code
 imap <S-CR>    <CR><CR>end<Esc>-cc
+
+" Default Use System Paste
+noremap yy "*yy
+noremap dd "*dd
+noremap d "*d
+noremap  y "*y
+noremap  Y "*Y
+noremap  p "*p
+noremap  P "*P
+
+vnoremap d "*d
+vnoremap y "*y
+vnoremap yy "*yy
+vnoremap dd "*dd
+vnoremap Y "*Y
+vnoremap p "*p
+vnoremap P "*P
+
