@@ -19,7 +19,7 @@ Plugin 'rking/ag.vim'
 " Plugin 'honza/vim-snippets'
 
 " go
-" Plugin 'fatih/vim-go'
+Plugin 'fatih/vim-go'
 
 " gui
 Plugin 'bling/vim-airline'
