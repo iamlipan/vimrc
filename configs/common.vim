@@ -67,3 +67,7 @@ set timeoutlen=500
 " :set colorcolumn=+1,+2,+3  " highlight three columns after 'textwidth'
 :highlight ColorColumn ctermbg=lightgrey guibg=lightgrey
 
+" ctags 
+let g:tagbar_ctags_bin='/usr/local/bin/ctags'
+" let g:tagbar_width=26
+

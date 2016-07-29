@@ -36,8 +36,8 @@ try
 catch
 endtry
 
-" go-lang
-" try
-"    source ~/.vim/configs/go.vim
-" catch
-" endtry
+go-lang
+try
+   source ~/.vim/configs/go.vim
+catch
+endtry

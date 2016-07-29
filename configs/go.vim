@@ -10,7 +10,7 @@ let g:go_highlight_structs = 1
 let g:go_fmt_command = "goimports"
 let g:go_fmt_fail_silently = 1
 
-let g:tagbar_type_go = {  
+let g:tagbar_type_go = {
     \ 'ctagstype' : 'go',
     \ 'kinds'     : [
         \ 'p:package',
