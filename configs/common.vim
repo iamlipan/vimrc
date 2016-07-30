@@ -69,5 +69,5 @@ set timeoutlen=500
 
 " ctags 
 let g:tagbar_ctags_bin='/usr/local/bin/ctags'
-" let g:tagbar_width=26
+let g:tagbar_width=30
 
