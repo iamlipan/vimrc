@@ -43,19 +43,19 @@ autocmd FileType html noremap <buffer> <c-f> :call HtmlBeautify()<cr>
 autocmd FileType css noremap <buffer> <c-f> :call CSSBeautify()<cr>
 
 " Default Use System Paste
-noremap yy "*yy
-noremap dd "*dd
-noremap d "*d
-noremap  y "*y
-noremap  Y "*Y
-noremap  p "*p
-noremap  P "*P
+" noremap yy "*yy
+" noremap dd "*dd
+" noremap d "*d
+" noremap  y "*y
+" noremap  Y "*Y
+" noremap  p "*p
+" noremap  P "*P
 
-vnoremap d "*d
-vnoremap y "*y
-vnoremap yy "*yy
-vnoremap dd "*dd
-vnoremap Y "*Y
-vnoremap p "*p
-vnoremap P "*P
+" vnoremap d "*d
+" vnoremap y "*y
+" vnoremap yy "*yy
+" vnoremap dd "*dd
+" vnoremap Y "*Y
+" vnoremap p "*p
+" vnoremap P "*P
 
