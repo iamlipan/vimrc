@@ -10,7 +10,8 @@ let g:SuperTabDefaultCompletionType="context"
 set guifont=Monaco:h16
 " colorscheme distinguished
 " colorscheme kolor
-colorscheme molokai
+" colorscheme molokai
+colorscheme dracula
 
 " AirLine settings
 let g:airline_detect_modified=1

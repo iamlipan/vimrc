@@ -3,7 +3,10 @@ Plugin 'sjbach/lusty'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'tpope/vim-commentary'
 Plugin 'kien/ctrlp.vim'
-Plugin 'vim-scripts/Mark'
+" Plugin 'vim-scripts/Mark'
+
+" A dark theme for Vim
+Plugin 'dracula/vim'
 
 " A Vim plugin for looking up documentation
 " http://keith.github.io/investigate.vim/
@@ -19,7 +22,7 @@ Plugin 'rking/ag.vim'
 " Plugin 'honza/vim-snippets'
 
 " go
-Plugin 'fatih/vim-go'
+" Plugin 'fatih/vim-go'
 
 " gui
 Plugin 'bling/vim-airline'
@@ -27,9 +30,8 @@ Plugin 'majutsushi/tagbar'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'ervandew/supertab'
 Plugin 'nathanaelkane/vim-indent-guides'
-Plugin 'myusuf3/numbers.vim'
+" Plugin 'myusuf3/numbers.vim'
 Plugin 'scrooloose/nerdtree.git'
-" Plugin 'Xuyuanp/nerdtree-git-plugin'
 
 " html && javascript
 Plugin 'vim-scripts/xml.vim'
@@ -42,7 +44,7 @@ Plugin 'pangloss/vim-javascript'
 "Plugin 'AndrewRadev/vim-eco'
 " Plugin 'JulesWang/css.vim' // only necessary if your Vim version < 7.4
 Plugin 'cakebaker/scss-syntax.vim'
-Plugin 'mustache/vim-mustache-handlebars'
+" Plugin 'mustache/vim-mustache-handlebars'
 " Plugin 'darthmall/vim-vue'
 Plugin 'posva/vim-vue'
 Plugin 'maksimr/vim-jsbeautify'
