@@ -50,6 +50,9 @@ Plugin 'posva/vim-vue'
 Plugin 'maksimr/vim-jsbeautify'
 "Plugin 'gorodinskiy/vim-coloresque'
 
+" Syntax checking hacks for vim
+Plugin 'vim-syntastic/syntastic'
+
 " Docker
 " Plugin 'docker/docker' , {'rtp': '/contrib/syntax/vim/'}
 
