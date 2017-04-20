@@ -84,3 +84,5 @@ let g:formatprg_args_cs = ""
 "     exe 'NeoCompleteUnlock'
 "     echo 'Enabled autocomplete'
 " endfunction
+Plugin 'mileszs/ack.vim'
+let g:ackprg = 'ag --nogroup --nocolor --column'

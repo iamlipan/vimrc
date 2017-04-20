@@ -4,6 +4,7 @@ let mapleader = ","
 let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+let g:ag_working_path_mode="r"
 
 "My maps
 nmap <C-o> :TagbarToggle<CR>
@@ -23,6 +24,7 @@ map <Leader>buff :LustyBufferExplorer<CR>
 map <Leader>ff :Autoformat<CR><CR>
 "map <Leader>csw :CoffeeWatch<CR><CR>
 map <Leader>file :NERDTreeToggle<CR><CR>
+map <c-s> :Ack<space>
 imap <C-c> <CR><Esc>O
 imap <C-o> <Esc>O
 nmap <silent> <leader>da <Plug>DashGlobalSearch
@@ -31,7 +33,7 @@ nmap <silent> <leader>da <Plug>DashGlobalSearch
 imap <S-CR>    <CR><CR>end<Esc>-cc
 
 " jsbeautify
-map <c-f> :call JsBeautify()<cr>
+" map <c-f> :call JsBeautify()<cr>
 autocmd FileType javascript noremap <buffer>  <c-f> :call JsBeautify()<cr>
 " for json
 autocmd FileType json noremap <buffer> <c-f> :call JsonBeautify()<cr>
